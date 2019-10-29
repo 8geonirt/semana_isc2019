@@ -1,0 +1,39 @@
+.hero .hero__title {
+  font-size: 36px;
+  font-family: 'Merriweather Sans';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero hr {
+  background-color: #f4623a;
+  border: none;
+  height: 3px;
+  width: 50px;
+}
+
+.hero .hero__paragraph {
+  font-family: 'Merriweather Sans';
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hero {
+  background-image: url('../img/bg-masthead.jpg');
+}
+
+.btn-primary {
+  background-color: #f4623a;
+  border-radius: 35px;
+  border: none;
+  color: #fff;
+  display: block;
+  font-family: 'Merriweather Sans';
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 20px 35px;
+  text-transform: uppercase;
+}
