@@ -6,7 +6,7 @@
   text-transform: uppercase;
 }
 
-.hero hr {
+.primary-separator {
   background-color: #f4623a;
   border: none;
   height: 3px;
@@ -88,6 +88,28 @@ body {
   text-transform: uppercase;
 }
 
+.characteristics {
+  text-align: center;
+}
+
+.characteristics__item i {
+  color: #f4623a;
+}
+
+.characteristics__item {
+  margin-top: 60px;
+}
+
+
+.characteristics__item-title {
+  font-weight: 400;
+}
+
+.characteristics__item-paragraph {
+  opacity: 0.7;
+  padding: 0 20px;
+}
+
 @media only screen and (min-width: 800px) {
   .hero {
     padding: 100px 140px;
@@ -104,5 +126,20 @@ body {
 
   .introduction .introduction__paragraph {
     padding: 0 190px;
+  }
+
+  .characteristics__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .characteristics__item {
+    flex: 0 0 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .characteristics__item {
+    flex: 0 0 25%;
   }
 }
